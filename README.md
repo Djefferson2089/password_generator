@@ -23,21 +23,21 @@ pip install -e . pytest
 
 ### Generate a 24-character password without symbols:
 
-passgen --length 24 --no-symbols
+- passgen --length 24 --no-symbols
 
 ### Exclude ambiguous characters:
 
-passgen --exclude "O0Il1"
+- passgen --exclude "O0Il1"
 
 ### Generate a digits-only password:
 
-passgen --no-upper --no-lower --symbols --digits
+- passgen --no-upper --no-lower --symbols --digits
 
 ### Copy password to clipboard (requires pyperclip):
 
-passgen --copy
+- passgen --copy
 
 ### View all options:
 
-passgen --help
+- passgen --help
 
