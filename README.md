@@ -11,13 +11,13 @@ pip install -e . pytest
 ```
 
 ## Usage
-passgen
-passgen --length 24
-passgen --no-symbols
-passgen --exclude "O0Il1"
-passgen --symbol-set "!@#"
-passgen --no-upper --digits
-passgen --copy
+- passgen
+- passgen --length 24
+- passgen --no-symbols
+- passgen --exclude "O0Il1"
+- passgen --symbol-set "!@#"
+- passgen --no-upper --digits
+- passgen --copy
 
 ## Examples
 
